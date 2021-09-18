@@ -1,0 +1,428 @@
+body,
+html {
+    font-family: 'Montserrat', sans-serif;
+    background-color: black;
+    background-image: url('images/zebra.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.nav-link {
+    color: white;
+    transition: 0.8s;
+}
+
+.nav-link:hover {
+    color: orange;
+    transition: 0.8s;
+}
+
+.nav-item {
+    display: table-cell;
+    position: relative;
+    padding: 15px 0;
+}
+
+.nav-link {
+    color: #fff;
+    float: right;
+    text-decoration: none;
+    letter-spacing: 0.15em;
+    display: block;
+    padding: 15px 20px;
+    position: relative;
+    margin-left: 50px;
+}
+
+.nav-link:after {
+    background: none repeat scroll 0 0 transparent;
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 2px;
+    left: 50%;
+    position: absolute;
+    background: orange;
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0;
+}
+
+.nav-link:hover:after {
+    width: 100%;
+    left: 0;
+    transition: 0.8s;
+}
+
+@media screen and (max-height: 300px) {
+    ul {
+        margin-top: 40px;
+    }
+}
+
+
+/* Ndarja e Div-ave */
+
+.div-big {
+    display: flex;
+    justify-content: space-between;
+}
+
+.imazhi {
+    overflow: hidden;
+    -ms-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.p-tag {
+    color: white;
+    font-size: 50px;
+    margin-top: 100px;
+    transition: 0.8s;
+}
+
+.p-tag:hover {
+    color: orange;
+    transition: 0.8s;
+    cursor: pointer;
+}
+
+.h1-tag {
+    color: white;
+    font-size: 80px;
+    transition: 0.8s;
+}
+
+.h1-tag:hover {
+    color: orange;
+    transition: 0.8s;
+    cursor: pointer;
+}
+
+.pre-tag {
+    color: grey;
+    letter-spacing: 11px;
+    transition: 0.8s;
+}
+
+.pre-tag:hover {
+    color: white;
+    transition: 0.8s;
+    cursor: pointer;
+}
+
+
+/* Play Button */
+
+.pulse-button {
+    margin-top: 35px;
+    position: relative;
+    width: 50px;
+    height: 50px;
+    border: none;
+    box-shadow: 0 0 0 0 #444444;
+    border-radius: 50%;
+    background-color: #444444;
+    background-size: cover;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    -webkit-animation: pulse 1.25s infinite cubic-bezier(0.66, 0, 0, 1);
+    -moz-animation: pulse 1.25s infinite cubic-bezier(0.66, 0, 0, 1);
+    -ms-animation: pulse 1.25s infinite cubic-bezier(0.66, 0, 0, 1);
+    animation: pulse 1.25s infinite cubic-bezier(0.66, 0, 0, 1);
+}
+
+.pulse-button:hover {
+    -webkit-animation: none;
+    -moz-animation: none;
+    -ms-animation: none;
+    animation: none;
+}
+.vl {
+  border-left: 2px solid white;
+  height: 50px;
+  width: 10px;
+}
+
+.heading-one-here{
+  color: white;
+  margin-top:150px;
+  transition: 0.8s;
+}
+
+.heading-one-here:hover{
+  color: orange;
+  margin-top:150px;
+  transition: 0.8s;
+  cursor: pointer;
+}
+
+.heading-two-here{
+  color: white;
+  transition: 0.8s;
+}
+
+.heading-two-here:hover{
+  color: orange;
+  transition: 0.8s;
+  cursor: pointer;
+}
+
+.p-one-here{
+  color: white;
+  transition: 0.8s;
+  margin-top:150px;
+  width:400px;
+}
+
+.p-one-here:hover{
+  color: orange;
+  transition: 0.8s;
+  cursor: pointer;
+}
+
+
+
+@-webkit-keyframes pulse {
+    to {
+        box-shadow: 0 0 0 25px rgba(232, 76, 61, 0);
+    }
+}
+
+@-moz-keyframes pulse {
+    to {
+        box-shadow: 0 0 0 25px rgba(232, 76, 61, 0);
+    }
+}
+
+@-ms-keyframes pulse {
+    to {
+        box-shadow: 0 0 0 25px rgba(232, 76, 61, 0);
+    }
+}
+
+@keyframes pulse {
+    to {
+        box-shadow: 0 0 0 25px rgba(232, 76, 61, 0);
+    }
+}
+
+
+/* Tekst afër butonit play */
+
+.tekst {
+    margin-top: -35px;
+    margin-left: 80px;
+    font-size: 9px;
+    color: orange;
+    transition: 0.8s;
+}
+
+.tekst:hover {
+    color: white;
+    transition: 0.8s;
+    cursor: pointer;
+}
+
+
+
+
+
+/* Container holding the image and the text */
+
+.container {
+    position: relative;
+}
+
+.card1{
+  width: 200px;
+  margin-top: 300px;
+  margin-left:650px;
+  border-radius: 25px;
+  border:0px solid transparent;
+}
+
+.card2{
+  width: 200px;
+  margin-top: 400px;
+  margin-left:430px;
+  border-radius: 25px;
+  border:0px solid transparent;
+}
+.card3{
+  width: 200px;
+  margin-top: 600px;
+  margin-left:650px;
+  border-radius: 25px;
+  border:0px solid transparent;
+}
+.text-block {
+    position: fixed;
+    /* margin-top: -250px;
+    bottom: 100px;
+    right: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 50px;
+    height: 150px; */
+}
+.drop {
+  background: rgba(255,255,255,0.4);
+  border-radius: 10px;
+  border: 1px solid rgba(255,255,255,0.2);
+  position: absolute;
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  display: block;
+  margin-top: -300px;
+  margin-left: -15px;
+}
+
+.drop1 {
+   width: 200px;
+   height: 250px;
+   z-index: -1;
+   backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+}
+.text-block-1{
+  position: fixed;
+}
+.card-img-top {
+    border-radius: 25px;
+    object-fit: cover;
+}
+
+
+
+/* .text-block-1 {
+    margin-left: 450px;
+    /* padding-left: 20px; */
+
+
+/* ---------- Ikonat ---------- */
+
+i.fa{
+    color: gray;
+    font-size: 24px;
+    transition: 0.8s;
+}
+i.fa:hover {
+    color: white;
+    cursor: pointer;
+    transition: 0.8s;
+}
+[class*="entypo-"]:before {
+    font-family: 'entypo', sans-serif;
+}
+/* ---------- GENERAL ---------- */
+
+#social-sidebar a {
+    text-decoration: none;
+}
+
+#social-sidebar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+
+/* ---------- Social Sidebar ---------- */
+
+#social-sidebar {
+    left: 90%;
+    margin-top: 50px;
+    /* (li * a:width) / -2 */
+    position: absolute;
+    top: 100px;
+}
+
+#social-sidebar ul li a {
+    border-radius: 0 10px 10px 0;
+    border: 2px solid rgba(0, 0, 0, 0.07)
+}
+
+#social-sidebar ul li a {
+    background: #fff;
+    color: #fff;
+    display: block;
+    height: 50px;
+    font-size: 18px;
+    line-height: 50px;
+    position: relative;
+    text-align: center;
+    width: 50px;
+    margin-bottom: 10px;
+}
+
+#social-sidebar ul li a:hover span {
+    right: 150%;
+    opacity: 1;
+    white-space: nowrap;
+    transition: 0.5s;
+    width: 120px;
+    color: white;
+}
+
+#social-sidebar ul li a span {
+    border-radius: 3px;
+    line-height: 24px;
+    /* left: -100%; */
+    margin-top: -16px;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    filter: alpha(opacity=0);
+    opacity: 0;
+    padding: 4px 8px;
+    position: absolute;
+    top: 50%;
+    z-index: -1;
+    width: 80px;
+}
+
+#social-sidebar ul li a span:before {
+    content: "";
+    display: block;
+    height: 8px;
+    right: -4px;
+    margin-top: -4px;
+    position: absolute;
+    top: 50%;
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    transform: rotate(45deg);
+    width: 8px;
+    z-index: -2;
+}
+
+#social-sidebar ul li a[class*="twitter"]:hover,
+#social-sidebar ul li a[class*="twitter"] span,
+#social-sidebar ul li a[class*="twitter"] span:before {
+    background: #6CDFEA;
+}
+
+#social-sidebar ul li a[class*="gplus"]:hover,
+#social-sidebar ul li a[class*="gplus"] span,
+#social-sidebar ul li a[class*="gplus"] span:before {
+    background: #E34429;
+}
+
+#social-sidebar ul li a[class*="tumblr"]:hover,
+#social-sidebar ul li a[class*="tumblr"] span,
+#social-sidebar ul li a[class*="tumblr"] span:before {
+    background: #1769ff;
+}
+
+#social-sidebar ul li a[class*="facebook"]:hover,
+#social-sidebar ul li a[class*="facebook"] span,
+#social-sidebar ul li a[class*="facebook"] span:before {
+    background: #234999;
+}
+
+#social-sidebar ul li a[class*="rss"]:hover,
+#social-sidebar ul li a[class*="rss"] span,
+#social-sidebar ul li a[class*="rss"] span:before {
+    background: #f57b05;
+}
