@@ -3,9 +3,18 @@ Animals living in their natural habitat and not within the possession or control
 
 # Wildlife - Designs
 
-https://ibb.co/n75FmVb
+Website's of Designs
 
-https://dribbble.com/shots/7559001-Wildlife-Website
+• https://ibb.co/n75FmVb
 
-# Wildlife - Website
-https://wildlife-animals.netlify.app/
+• https://dribbble.com/shots/7559001-Wildlife-Website
+
+# Wildlife - Design implemented into code | Website
+
+Website deployed with Netlify 
+
+• https://wildlife-animals.netlify.app/
+
+# Wildlife -  Video on Youtube
+
+• https://youtu.be/-5CIYPRZKps
